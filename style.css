@@ -1,0 +1,69 @@
+.outer-box{
+    height: 450px;
+    width: 300px;
+    border: solid black 2px;
+    border-radius: 15px;
+}
+
+.logo{
+    height: 60px;
+    margin-left: 40px;
+}
+
+h1{
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0px;
+}
+
+.photo-circle{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid black 1px;
+    margin: 10px auto;
+}
+
+.photo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+h2{
+    font-family: Oswald;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0px;
+}
+
+.sign{
+    height: 60px;
+    width: 100px;
+    margin-left: 180px;
+}
+
+.authority{
+    margin-left: 195px;
+    margin-top: 0px;
+    font-size: 0.7rem;
+}
+
+.footer-box{
+    height: 70px;
+    width: 300px;
+    background-color: #00a99d; 
+    background: linear-gradient(to right, #00a99d, #145c85);
+    border-radius: 0 0 15px 15px; 
+}
+
+#footer-content{
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 10px;
+}
